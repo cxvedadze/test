@@ -9,19 +9,33 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@blocknote/core": "^0.11.2",
+    "@blocknote/react": "^0.11.2",
+    "@lexical/react": "^0.13.1",
+    "@lexical/yjs": "^0.13.1",
+    "@liveblocks/client": "^1.9.7",
+    "@liveblocks/node": "^1.9.7",
+    "@liveblocks/react": "^1.9.7",
+    "@liveblocks/yjs": "^1.9.7",
+    "@reduxjs/toolkit": "^2.1.0",
+    "lexical": "^0.13.1",
+    "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "react-redux": "^9.1.0",
+    "redux": "^5.0.1",
+    "yjs": "^13.6.11"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
     "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "sass": "^1.70.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
   }
 }
